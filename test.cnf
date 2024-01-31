@@ -1,0 +1,38 @@
+c # BDD stored by the DDDMP tool in CNF format
+c #
+c # Warning: AUX IDs missing ... equal to BDD IDs.
+c #
+c .ver DDDMP-2.0
+c .nnodes 9
+c .nvars 9
+c .nsuppvars 5
+c .suppvarnames x' y' a' b' _jx_b0
+c .orderedvarnames x x' y y' a a' b b' _jx_b0
+c .ids  1 3 5 7 8
+c .permids  1 3 5 7 8
+c .auxids  3 7 0 0 1
+c .cnfids  2 4 6 8 9
+c .nroots 1
+c .rootids 1         
+c .nAddedCnfVar 0
+c #
+c # Init CNF Clauses
+c #
+p cnf 9 16                 
+2 4 6 8 0
+2 4 6 -9 0
+2 4 -6 -9 0
+2 4 -6 -8 0
+2 -4 6 -9 0
+2 -4 6 -8 0
+2 -4 -6 8 0
+2 -4 -6 -9 0
+-2 4 6 -9 0
+-2 4 6 -8 0
+-2 4 -6 8 0
+-2 4 -6 -9 0
+-2 -4 6 8 0
+-2 -4 6 -9 0
+-2 -4 -6 -9 0
+-2 -4 -6 -8 0
+c # End of Cnf From dddmp-2.0
